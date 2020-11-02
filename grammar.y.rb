@@ -3,8 +3,8 @@ class Parser
 token INTEGER PRINT INDEX
 
 prechigh
-  left PRINT
   left INDEX
+  left PRINT
 preclow
 
 rule
