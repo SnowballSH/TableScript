@@ -37,3 +37,23 @@ Table:
 ```
 
 (Tip: print statement returns -1)
+
+#### Nested Tables
+
+```
+{
+  {
+    66
+  },
+  .@/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+}
+```
+
+Output:
+
+```
+B
+
+Table:
+[[66], -1]
+```
