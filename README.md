@@ -10,6 +10,8 @@
 |-----------------|------------|-------|-------|-----------------|---------------------------|
 | Print Statement | Base Table | Index | Table | Wrap Expression | Split Elements in a Table |
 
+P.S. Anything invalid (like indexing an integer or index out of range) will return 0, which will be ignored while printing
+
 ## Examples
 
 #### Hello, world!
