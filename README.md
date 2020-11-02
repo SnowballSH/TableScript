@@ -4,6 +4,12 @@
 
 ***
 
+## How?
+
+| .               | @          | /     | {}    | ()              | ,                         |
+|-----------------|------------|-------|-------|-----------------|---------------------------|
+| Print Statement | Base Table | Index | Table | Wrap Expression | Split Elements in a Table |
+
 ## Examples
 
 #### Hello, world!
