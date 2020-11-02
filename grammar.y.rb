@@ -19,7 +19,7 @@ Expressions:
 ;
 
 Expression:
-  INTEGER  { result = LitInteger.new(val[0]) }
+  INTEGER                 { result = LitInteger.new(val[0]) }
   | PRINT Expression      { result = PrintNode.new(val[1]) }
   | Expression INDEX INTEGER  { result = IndexNode.new(val[0], val[2]) }
   | '@'                   { result = SelfNode.new }
